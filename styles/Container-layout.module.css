@@ -1,0 +1,87 @@
+
+.containercounterbox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.animate {
+    transition: transform 250ms, opacity 400ms;
+}
+
+.animate:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.counterposition {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    border: 30px solid plum;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.sortboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 50px;
+}
+
+.textalert {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.incrementbtn {
+    background-color: red;
+    border-radius: 10px;
+    border-color: red;
+
+}
+
+.incrementbtn:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.decrementbtn {
+    background-color: green;
+    border-radius: 10px;
+    border-color: green;
+
+}
+
+.decrementbtn:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.resetbtn {
+    background-color: blue;
+    border-radius: 10px;
+    border-color: blue;
+
+}
+
+.resetbtn:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}

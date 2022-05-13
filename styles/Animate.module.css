@@ -1,0 +1,7 @@
+.animation {
+  transition: transform .35s ease-in-out;
+}
+
+.animation.grow {
+  transform: scale(1.5);
+}
